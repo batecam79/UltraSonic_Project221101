@@ -52,7 +52,7 @@ unsigned long S2_cS = 0;    //sensor1 currentMillis
 unsigned long S3_pS = 0;    //sensor1 previousMillis
 unsigned long S3_cS = 0;    //sensor1 currentMillis
 
-const long Relay1_Stopinterval = 10000;
+const long Relay1_Stopinterval = 10000;      //此时间为上次继电器针脚LOW之后的间隔时间，再这个间隔时间后才会继续相应digitalWite
 const long Relay2_Stopinterval = 10000;
 const long Relay3_Stopinterval = 10000;
 
